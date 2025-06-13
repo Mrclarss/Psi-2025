@@ -4,6 +4,11 @@
     font-family: "Inter", sans-serif;
 }
 
+.container{
+    display: flex;
+    margin: auto;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -35,16 +40,22 @@
 
 .right{
     border-left: 1px solid #D5D5D5;
+    height: 40px;
 }
 
 .left{
     display: flex;
     justify-content: flex-start;
+    margin-right: 10px;
+    border-right: 1px solid rgb(240, 240, 240);
+    padding-right: 30px;
+    
 }
 
 .left li{
     list-style: none;
 }
+
 
 .left li a{
     text-decoration: none;
@@ -66,4 +77,8 @@
 img{
     width: 100%;
     margin-bottom: 5px;
+}
+
+.direita{
+    width: 4500px;
 }
